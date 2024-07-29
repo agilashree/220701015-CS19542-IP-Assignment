@@ -1,0 +1,93 @@
+h2{
+    color:blueviolet;
+    text-align: left;
+    text-decoration: underline ;
+    text-decoration-color:purple;
+}
+h3{
+    color: blueviolet;
+    text-align: left;
+    text-decoration: underline;
+    text-decoration-color: purple;
+}
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 30px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.logo img {
+    width: 100px; 
+    margin-right: 20px;
+}
+
+.college-name h1 {
+    font-size: 2em;
+    color: #4B0082; 
+    margin: 0;
+}
+
+.navdiv {
+    background-color: #4B0082;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.college-image {
+    position: relative;
+    width: 100%;
+    height: auto;
+    background: url('banner-1.jpg') no-repeat center center;
+    background-size: cover;
+    padding-bottom: 30%;
+}
+
+.content {
+    padding: 20px;
+    text-align: left;
+}
+
+.section {
+    padding: 20px;
+}
+
+p{
+    text-align: justify;
+    line-height: 1.5rem;
+}
+ul {
+        list-style-position: inside;
+        padding-left: 0;
+    }
+    li {
+        text-align: left;
+    }
